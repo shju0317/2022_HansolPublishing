@@ -1,0 +1,186 @@
+body {
+  min-width: 1280px;
+}
+header {
+  position: relative;
+  text-align: center;
+  height: 81px;
+}
+
+header h1 {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  padding: 14px 0 0 0;
+}
+
+header h1 a {
+  display: block;
+  width: 110px;
+  height: 48px;
+  color: transparent;
+  background: url(../images/sp_com.png) no-repeat -300px 0;
+}
+
+header .lnb li {
+  display: inline-block;
+}
+header .lnb li a {
+  display: block;
+  height: 81px;
+  padding: 0 35px;
+  font-size: 17px;
+  color: #333;
+  line-height: 81px;
+}
+header .lnb li a span {
+  position: relative;
+}
+header .lnb li a:hover span:after {
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: #2d5b79;
+}
+header .lnb li a:hover {
+  color: #2d5b79;
+  font-weight: bold;
+}
+header .spot {
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+header .spot li {
+  position: relative;
+  float: left;
+}
+header .spot li::after {
+  width: 1px;
+  height: 7px;
+  background: #333;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+header .spot li:first-child::after {
+  display: none;
+}
+header .spot li a {
+  display: block;
+  height: 81px;
+  padding: 0 10px;
+  line-height: 81px;
+}
+header .spot li:last-child a {
+  padding-right: 0;
+}
+
+.visual {
+  position: relative;
+  padding: 0 50px;
+}
+.visual .prev,
+.visual .next {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 47px;
+  background: url(../images/sp_com.png) no-repeat;
+  color: transparent;
+}
+.visual .prev {
+  left: 82px;
+  background-position: -128px -60px;
+}
+.visual .next {
+  right: 82px;
+  background-position: -158px -60px;
+}
+.visual .control {
+  position: absolute;
+  left: 0;
+  bottom: 55px;
+  text-align: center;
+  width: 100%;
+}
+.visual .control > div {
+  display: inline-block;
+  position: relative;
+  padding: 0 45px 0 0;
+}
+.visual .control > div > div {
+  position: absolute;
+  right: 0;
+}
+.visual .control > div > div a {
+  display: inline-block;
+  width: 8px;
+  height: 9px;
+  overflow: hidden;
+  background: url(../images/sp_com.png);
+  margin: 0 0 0 7px;
+  opacity: 0.5;
+}
+.visual .control > div > div a.on {
+  opacity: 1;
+}
+.visual .control > div > div a.play {
+  background-position: -108px -72px;
+}
+.visual .control > div > div a.pause {
+  background-position: -108px -60px;
+}
+.visual .control ul {
+  display: inline-block;
+  font-size: 0;
+  position: relative;
+  top: -7px;
+}
+
+.visual .control li {
+  display: inline-block;
+  padding: 0 3px;
+}
+.visual .control li.on a {
+  background: #fff;
+}
+
+.visual .control li a {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.visual .control a {
+  color: transparent;
+}
+
+.visual .con > div {
+  height: 640px;
+}
+.visual .con .slide {
+  background: url(../images/bg_main_business.jpg) no-repeat center;
+  color: #fff;
+  font-size: 32px;
+  line-height: 46px;
+}
+.visual .con .slide p {
+  padding: 19px 0 0;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.visual .con .slide .txt {
+  position: absolute;
+  left: 50%;
+  top: 175px;
+}
