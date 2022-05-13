@@ -242,6 +242,48 @@ header .spot li:last-child a {
   margin: 26px -640px 0 0;
 }
 
+.notice > div {
+  width: 1180px;
+  margin: 0 auto;
+  padding: 55px 0;
+}
+
+.notice > div .top > ul {
+  float: left;
+}
+
+.notice > div .top > ul li {
+  float: left;
+  padding: 0 20px 0 0;
+}
+
+.notice > div .top > ul a {
+  display: block;
+  width: 280px;
+  height: 280px;
+  padding-top: 100px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.notice > div .top > ul li:nth-child(1) a {
+  background: url(../images/bg_key_link01.jpg) no-repeat;
+}
+.notice > div .top > ul li:nth-child(2) a {
+  background: url(../images/bg_key_link02.jpg) no-repeat;
+  color: #000;
+}
+.notice > div .top > ul li:nth-child(3) a {
+  background: url(../images/bg_key_link03.jpg) no-repeat;
+}
+
+.notice > div .top > div {
+  float: left;
+}
+
 /* slide */
 .slide .prev,
 .slide .next {
